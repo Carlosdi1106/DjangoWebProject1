@@ -1,3 +1,6 @@
+
+from django.contrib import admin
+from django.urls import include, path
 """
 DjangoWebProject1 URL Configuration
 
@@ -21,6 +24,6 @@ Including another URLconf
 #from django.urls import path
 
 urlpatterns = [
-    # Uncomment the next line to enable the admin:
-    #path('admin/', admin.site.urls)
+    path('votos/', include('votos.urls')),
+    path('admin/', admin.site.urls),
 ]
