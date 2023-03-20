@@ -50,6 +50,7 @@
     <Content Include="requirements.txt" />
     <Content Include="votos\templates\votos\detail.html" />
     <Content Include="votos\templates\votos\index.html" />
+    <Content Include="votos\templates\votos\results.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DjangoWebProject1\" />
