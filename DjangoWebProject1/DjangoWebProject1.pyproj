@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="votos\templates\votos\detail.html" />
     <Content Include="votos\templates\votos\index.html" />
   </ItemGroup>
   <ItemGroup>
